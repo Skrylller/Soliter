@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: 35c4e4e2a961c19489656e2d0010d2f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7547186782160384634
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_0
+  - first:
+      213: -5690083706620593227
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_1
+  - first:
+      213: -7984496411300988706
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_2
+  - first:
+      213: 2464968961759954260
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_3
+  - first:
+      213: -5690379490165546785
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_4
+  - first:
+      213: 6495595310713038047
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_5
+  - first:
+      213: 6387493622791178651
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_6
+  - first:
+      213: 7881328204432932575
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_7
+  - first:
+      213: 4647729654828718882
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_8
+  - first:
+      213: 2555354627312639065
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_9
+  - first:
+      213: 2397253110964302052
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_10
+  - first:
+      213: -1891401999545217325
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_11
+  - first:
+      213: -2469126656342717484
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_12
+  - first:
+      213: 2523688703826062094
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_13
+  - first:
+      213: 3025136152607685966
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_14
+  - first:
+      213: -5597114101700886501
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_15
+  - first:
+      213: -6050276398626492720
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_16
+  - first:
+      213: 5709611952473901558
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_17
+  - first:
+      213: 6267846968545002705
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_18
+  - first:
+      213: -3906356390235219325
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_19
+  - first:
+      213: -6745067627464639714
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_20
+  - first:
+      213: 2108520742552917695
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_21
+  - first:
+      213: -8571522545911662801
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_22
+  - first:
+      213: -4745663616893807026
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_23
+  - first:
+      213: 1124881354450160415
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_24
+  - first:
+      213: -8521471947686831653
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_25
+  - first:
+      213: 202552180641918255
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_26
+  - first:
+      213: 6976216517326998563
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_27
+  - first:
+      213: 8961686543726108225
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_28
+  - first:
+      213: 4515483464312870150
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_29
+  - first:
+      213: 2839942640588761903
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_30
+  - first:
+      213: 2243715407906427206
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_31
+  - first:
+      213: 321717712605843459
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_32
+  - first:
+      213: 7026839097936929803
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_33
+  - first:
+      213: -3033144166959158151
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_34
+  - first:
+      213: 938283901609996883
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_35
+  - first:
+      213: 3658475555532289150
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_36
+  - first:
+      213: 8171808601787846798
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_37
+  - first:
+      213: 8692759003270713067
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_38
+  - first:
+      213: 5441390621923899426
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_39
+  - first:
+      213: 5326749908956512920
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_40
+  - first:
+      213: -2107787899328473194
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_41
+  - first:
+      213: 2916836398835777374
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_42
+  - first:
+      213: -1557604132900743035
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_43
+  - first:
+      213: 221985210963565792
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_44
+  - first:
+      213: -1406966679698226868
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_45
+  - first:
+      213: -342489729011665826
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_46
+  - first:
+      213: -4981721445627666589
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_47
+  - first:
+      213: 2171064201674524894
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_48
+  - first:
+      213: -3951168537744964403
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_49
+  - first:
+      213: -3757417900953628449
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_50
+  - first:
+      213: 3823279079002088324
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_51
+  - first:
+      213: 6718139507938315119
+    second: 213-2133477_deck-deck-of-cards-sprite-sheet_52
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -520, y: 300}
+        - {x: -520, y: -300}
+        - {x: -355, y: -300}
+        - {x: 520, y: -186}
+        - {x: 520, y: 300}
+      - - {x: -442, y: -60}
+        - {x: -440, y: -58}
+        - {x: -438, y: -60}
+        - {x: -440, y: -62}
+        - {x: -440, y: -61}
+      - - {x: -362, y: -60}
+        - {x: -360, y: -58}
+        - {x: -358, y: -60}
+        - {x: -360, y: -62}
+        - {x: -360, y: -61}
+      - - {x: -282, y: -60}
+        - {x: -280, y: -58}
+        - {x: -278, y: -60}
+        - {x: -280, y: -62}
+        - {x: -280, y: -61}
+      - - {x: -202, y: -60}
+        - {x: -200, y: -58}
+        - {x: -198, y: -60}
+        - {x: -200, y: -62}
+        - {x: -200, y: -61}
+      - - {x: -122, y: -60}
+        - {x: -120, y: -58}
+        - {x: -118, y: -60}
+        - {x: -120, y: -62}
+        - {x: -120, y: -61}
+      - - {x: -42, y: -60}
+        - {x: -40, y: -58}
+        - {x: -38, y: -60}
+        - {x: -40, y: -62}
+        - {x: -40, y: -61}
+      - - {x: 38, y: -60}
+        - {x: 40, y: -58}
+        - {x: 42, y: -60}
+        - {x: 40, y: -62}
+        - {x: 40, y: -61}
+      - - {x: 118, y: -60}
+        - {x: 120, y: -58}
+        - {x: 122, y: -60}
+        - {x: 120, y: -62}
+        - {x: 120, y: -61}
+      - - {x: 198, y: -60}
+        - {x: 200, y: -58}
+        - {x: 202, y: -60}
+        - {x: 200, y: -62}
+        - {x: 200, y: -61}
+      - - {x: 278, y: -60}
+        - {x: 280, y: -58}
+        - {x: 282, y: -60}
+        - {x: 280, y: -62}
+        - {x: 280, y: -61}
+      - - {x: 358, y: -60}
+        - {x: 360, y: -58}
+        - {x: 362, y: -60}
+        - {x: 360, y: -62}
+        - {x: 360, y: -61}
+      - - {x: 438, y: -60}
+        - {x: 440, y: -58}
+        - {x: 442, y: -60}
+        - {x: 440, y: -62}
+        - {x: 440, y: -61}
+      - - {x: -442, y: 60}
+        - {x: -440, y: 62}
+        - {x: -438, y: 60}
+        - {x: -440, y: 58}
+        - {x: -440, y: 59}
+      - - {x: -362, y: 60}
+        - {x: -360, y: 62}
+        - {x: -358, y: 60}
+        - {x: -360, y: 58}
+        - {x: -360, y: 59}
+      - - {x: -282, y: 60}
+        - {x: -280, y: 62}
+        - {x: -278, y: 60}
+        - {x: -280, y: 58}
+        - {x: -280, y: 59}
+      - - {x: -202, y: 60}
+        - {x: -200, y: 62}
+        - {x: -198, y: 60}
+        - {x: -200, y: 58}
+        - {x: -200, y: 59}
+      - - {x: -122, y: 60}
+        - {x: -120, y: 62}
+        - {x: -118, y: 60}
+        - {x: -120, y: 58}
+        - {x: -120, y: 59}
+      - - {x: -42, y: 60}
+        - {x: -40, y: 62}
+        - {x: -38, y: 60}
+        - {x: -40, y: 58}
+        - {x: -40, y: 59}
+      - - {x: 38, y: 60}
+        - {x: 40, y: 62}
+        - {x: 42, y: 60}
+        - {x: 40, y: 58}
+        - {x: 40, y: 59}
+      - - {x: 118, y: 60}
+        - {x: 120, y: 62}
+        - {x: 122, y: 60}
+        - {x: 120, y: 58}
+        - {x: 120, y: 59}
+      - - {x: 198, y: 60}
+        - {x: 200, y: 62}
+        - {x: 202, y: 60}
+        - {x: 200, y: 58}
+        - {x: 200, y: 59}
+      - - {x: 278, y: 60}
+        - {x: 280, y: 62}
+        - {x: 282, y: 60}
+        - {x: 280, y: 58}
+        - {x: 280, y: 59}
+      - - {x: 358, y: 60}
+        - {x: 360, y: 62}
+        - {x: 362, y: 60}
+        - {x: 360, y: 58}
+        - {x: 360, y: 59}
+      - - {x: 438, y: 60}
+        - {x: 440, y: 62}
+        - {x: 442, y: 60}
+        - {x: 440, y: 58}
+        - {x: 440, y: 59}
+      - - {x: -442, y: 180}
+        - {x: -440, y: 182}
+        - {x: -438, y: 180}
+        - {x: -440, y: 178}
+        - {x: -440, y: 179}
+      - - {x: -362, y: 180}
+        - {x: -360, y: 182}
+        - {x: -358, y: 180}
+        - {x: -360, y: 178}
+        - {x: -360, y: 179}
+      - - {x: -282, y: 180}
+        - {x: -280, y: 182}
+        - {x: -278, y: 180}
+        - {x: -280, y: 178}
+        - {x: -280, y: 179}
+      - - {x: -202, y: 180}
+        - {x: -200, y: 182}
+        - {x: -198, y: 180}
+        - {x: -200, y: 178}
+        - {x: -200, y: 179}
+      - - {x: -122, y: 180}
+        - {x: -120, y: 182}
+        - {x: -118, y: 180}
+        - {x: -120, y: 178}
+        - {x: -120, y: 179}
+      - - {x: -42, y: 180}
+        - {x: -40, y: 182}
+        - {x: -38, y: 180}
+        - {x: -40, y: 178}
+        - {x: -40, y: 179}
+      - - {x: 38, y: 180}
+        - {x: 40, y: 182}
+        - {x: 42, y: 180}
+        - {x: 40, y: 178}
+        - {x: 40, y: 179}
+      - - {x: 118, y: 180}
+        - {x: 120, y: 182}
+        - {x: 122, y: 180}
+        - {x: 120, y: 178}
+        - {x: 120, y: 179}
+      - - {x: 198, y: 180}
+        - {x: 200, y: 182}
+        - {x: 202, y: 180}
+        - {x: 200, y: 178}
+        - {x: 200, y: 179}
+      - - {x: 278, y: 180}
+        - {x: 280, y: 182}
+        - {x: 282, y: 180}
+        - {x: 280, y: 178}
+        - {x: 280, y: 179}
+      - - {x: 358, y: 180}
+        - {x: 360, y: 182}
+        - {x: 362, y: 180}
+        - {x: 360, y: 178}
+        - {x: 360, y: 179}
+      - - {x: 438, y: 180}
+        - {x: 440, y: 182}
+        - {x: 442, y: 180}
+        - {x: 440, y: 178}
+        - {x: 440, y: 179}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a727134446efcb860800000000000000
+      internalID: 7547186782160384634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb34a42403c801b0800000000000000
+      internalID: -5690083706620593227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8f50e41de513190800000000000000
+      internalID: -7984496411300988706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455c014f534553220800000000000000
+      internalID: 2464968961759954260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0a38ba006b701b0800000000000000
+      internalID: -5690379490165546785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd46ebb158df42a50800000000000000
+      internalID: 6495595310713038047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b998a878b9fe4a850800000000000000
+      internalID: 6387493622791178651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdefd7fae3a106d60800000000000000
+      internalID: 7881328204432932575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b5d101f7d008040800000000000000
+      internalID: 4647729654828718882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cde14ae71767320800000000000000
+      internalID: 2555354627312639065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03ab3d001c44120800000000000000
+      internalID: 2397253110964302052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dec4a907e360c5e0800000000000000
+      internalID: -1891401999545217325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db8e375366ebbdd0800000000000000
+      internalID: -2469126656342717484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0be73b4181f50320800000000000000
+      internalID: 2523688703826062094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d7f5d8d417bf920800000000000000
+      internalID: 3025136152607685966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b100ac8116e0352b0800000000000000
+      internalID: -5597114101700886501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de20f2dba9190ca0800000000000000
+      internalID: -6050276398626492720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f90888e1dd9c3f40800000000000000
+      internalID: 5709611952473901558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d442a20c9ddbf650800000000000000
+      internalID: 6267846968545002705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ad3f15f85d9c9c0800000000000000
+      internalID: -3906356390235219325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bbbfecab4b462a0800000000000000
+      internalID: -6745067627464639714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6d865a178f24d10800000000000000
+      internalID: 2108520742552917695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27feaa88a5db0980800000000000000
+      internalID: -8571522545911662801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e469c838514042eb0800000000000000
+      internalID: -4745663616893807026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b467ac1a16c9f00800000000000000
+      internalID: 1124881354450160415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 360
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd99baa8966adb980800000000000000
+      internalID: -8521471947686831653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d64a7922c9fc200800000000000000
+      internalID: 202552180641918255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c0d7ff5ff70d060800000000000000
+      internalID: 6976216517326998563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e51333e6e4e5c70800000000000000
+      internalID: 8961686543726108225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605d48769483aae30800000000000000
+      internalID: 4515483464312870150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b27c2f8c0896720800000000000000
+      internalID: 2839942640588761903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64155599647432f10800000000000000
+      internalID: 2243715407906427206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30092d91e88f67400800000000000000
+      internalID: 321717712605843459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b046b560ee8548160800000000000000
+      internalID: 7026839097936929803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce9df437b18e5d0800000000000000
+      internalID: -3033144166959158151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3527eedbc34750d00800000000000000
+      internalID: 938283901609996883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74b3f2622485c230800000000000000
+      internalID: 3658475555532289150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80db0290a8186170800000000000000
+      internalID: 8171808601787846798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 240
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee870cd142e2a870800000000000000
+      internalID: 8692759003270713067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2287aefd0f3b38b40800000000000000
+      internalID: 5441390621923899426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89282b2e1da6ce940800000000000000
+      internalID: 5326749908956512920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d8a6b212afb2e0800000000000000
+      internalID: -2107787899328473194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f398c204faa7820800000000000000
+      internalID: 2916836398835777374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58855cd2b47426ae0800000000000000
+      internalID: -1557604132900743035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec9fdc8f56a41300800000000000000
+      internalID: 221985210963565792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41c6cd5243797ce0800000000000000
+      internalID: -1406966679698226868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e543a03f76b3f3bf0800000000000000
+      internalID: -342489729011665826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fda6f4dbe5ddab0800000000000000
+      internalID: -4981721445627666589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8806d736b212e10800000000000000
+      internalID: 2171064201674524894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4030c2621aa29c0800000000000000
+      internalID: -3951168537744964403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd017f4a358fadbc0800000000000000
+      internalID: -3757417900953628449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 120
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4832a15d0140f0530800000000000000
+      internalID: 3823279079002088324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 213-2133477_deck-deck-of-cards-sprite-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b4e2ac940ab3d50800000000000000
+      internalID: 6718139507938315119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
