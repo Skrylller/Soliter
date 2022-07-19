@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardView : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Image _frontImage;
+    [SerializeField] private Image _backImage;
 
-    // Update is called once per frame
-    void Update()
+    public CardView(Sprite frontSprite, Sprite backSprite)
     {
-        
+        _frontImage.sprite = frontSprite;
+        _backImage.sprite = backSprite;
     }
 }

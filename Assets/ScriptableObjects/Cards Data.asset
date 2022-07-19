@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81897773095cf042970b216b10e7c18, type: 3}
+  m_Name: Cards Data
+  m_EditorClassIdentifier: 
+  _backSprite: {fileID: 6718139507938315119, guid: 35c4e4e2a961c19489656e2d0010d2f5, type: 3}
+  _SuitsSprites:
+  - _suitSprites: []
+  - _suitSprites: []
+  - _suitSprites: []
+  - _suitSprites: []
