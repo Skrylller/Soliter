@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917166be4e16cef4290614671850b7f8, type: 3}
   m_Name: Field Data
   m_EditorClassIdentifier: 
-  _maxCardCombination: 0
+  _cardCount: 40
+  _decrementChance: 35
+  _reverseChance: 15
+  _maxCardCombination: 7

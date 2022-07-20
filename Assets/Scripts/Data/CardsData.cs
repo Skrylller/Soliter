@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ public class CardsData : ScriptableObject
     [System.Serializable]
     public class Suit
     {
-        [SerializeField] private List<Sprite> _suitSprites = new List<Sprite>(_cardValueMax);
+        [SerializeField] public List<Sprite> cardSprites = new List<Sprite>(_cardValueMax);
     }
 
     [SerializeField] private List<Suit> _SuitsSprites = new List<Suit>(_cardValueSuitCount);
@@ -21,5 +20,16 @@ public class CardsData : ScriptableObject
 
     public int cardValueMax { get { return _cardValueMax; } }
     public int _ardValueSuitCount { get { return _cardValueSuitCount; } }
+    public Sprite backSprite { get { return _backSprite; } }
+
+    public Sprite CardSprite(int suit, int cardValue)
+    {
+        return _SuitsSprites[suit].cardSprites[cardValue];
+    }
+
+    public int SuitCount()
+    {
+        return _SuitsSprites.Count;
+    }
 }
 

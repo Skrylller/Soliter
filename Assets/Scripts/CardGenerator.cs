@@ -5,18 +5,18 @@ namespace CardFieldGenerator
 {
     public class CardGenerator
     {
-        public static CardsFieldModel GenerateCardsCombinations(FieldData fieldData, CardsData cardData)
+        public static CardsFieldModel GenerateCardsCombinations(FieldData fieldData, CardsData cardData, int fieldSize)
         {
             List<CardsCombinationModel> cardsCombinations = new List<CardsCombinationModel>();
 
             int generatedCard = 0;
 
-            while (generatedCard < fieldData.cardCount)
+            while (generatedCard < fieldSize)
             {
-                int combinationCardCount = GenerateCombinationCardCount(fieldData, generatedCard);
-                generatedCard += combinationCardCount;
+                int combinationCardCount = GenerateCombinationCardCount(fieldData, fieldSize, generatedCard);
+                generatedCard += combinationCardCount - 1;
 
-                cardsCombinations.Add(new CardsCombinationModel(GenerateCardModels(fieldData, cardData, combinationCardCount)));
+                cardsCombinations.Add(new CardsCombinationModel(GenerateCombination(fieldData, cardData, combinationCardCount)));
             }
 
 
@@ -24,27 +24,30 @@ namespace CardFieldGenerator
 
         }
 
-        private static int GenerateCombinationCardCount(FieldData fieldData, int generatedCard)
+        private static int GenerateCombinationCardCount(FieldData fieldData, int fieldSize, int generatedCard)
         {
             int maxCardCombination = fieldData.maxCardCombination;
 
-            if (fieldData.cardCount - generatedCard < fieldData.maxCardCombination)
+            if (fieldSize - generatedCard < fieldData.maxCardCombination - 1)
             {
-                maxCardCombination = fieldData.cardCount - generatedCard;
+                maxCardCombination = fieldSize - generatedCard;
             }
-            else if (fieldData.cardCount - generatedCard < fieldData.maxCardCombination + fieldData.minCardCombination)
+            else if (fieldSize - generatedCard < fieldData.maxCardCombination + fieldData.minCardCombination - 1)
             {
-                maxCardCombination = fieldData.maxCardCombination - ((fieldData.maxCardCombination + fieldData.minCardCombination) - (fieldData.cardCount - generatedCard));
+                maxCardCombination = fieldData.maxCardCombination - ((fieldData.maxCardCombination + fieldData.minCardCombination) - (fieldSize - generatedCard));
             }
 
             return Random.Range(fieldData.minCardCombination, maxCardCombination + 1);
         }
 
-        private static List<CardModel> GenerateCardModels(FieldData fieldData, CardsData cardData, int combinationCardCount)
+        private static CardModel[] GenerateCombination(FieldData fieldData, CardsData cardData, int combinationCardCount)
         {
-            List<CardModel> combinationCards = new List<CardModel>(combinationCardCount);
+            CardModel[] combinationCards = new CardModel[combinationCardCount];
 
-            combinationCards[0] = new CardModel(Random.Range(0, cardData.cardValueMax), Random.Range(0, cardData.cardValueMax));
+            combinationCards[0] = new CardModel(Random.Range(0, cardData.SuitCount()), Random.Range(0, cardData.cardValueMax));
+
+            Debug.Log($"Start combination:");
+            Debug.Log($"{combinationCards[0].cardValue} {combinationCards[0].suit}");
 
             int difference = 1;
 
@@ -53,11 +56,21 @@ namespace CardFieldGenerator
                 difference = -1;
             }
 
-            for (int i = 1; i < combinationCards.Count; i++)
+            for (int i = 1; i < combinationCards.Length; i++)
             {
-                combinationCards[0] = new CardModel(combinationCards[i + difference].cardValue + 1, Random.Range(0, cardData.cardValueMax));
+                int cardValue = combinationCards[i - 1].cardValue + difference;
 
-                if (Chance(fieldData.reverseChance))
+                if (cardValue < 0)
+                    cardValue = cardData.cardValueMax - 1;
+
+                if (cardValue >= cardData.cardValueMax)
+                    cardValue = 0;
+
+                combinationCards[i] = new CardModel(Random.Range(0, cardData.SuitCount()), cardValue);
+
+                Debug.Log($"{combinationCards[i].cardValue} {combinationCards[i].suit}");
+
+                if (i < combinationCards.Length - 2 && Chance(fieldData.reverseChance))
                 {
                     difference = -difference;
                 }

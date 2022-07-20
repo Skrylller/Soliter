@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CardsCombinationModel
 {
-    public readonly List<CardModel> cardsData = new List<CardModel>();
+    public readonly CardModel[] cardsData;
 
-    public CardsCombinationModel(List<CardModel> cards)
+    public CardsCombinationModel(CardModel[] cards)
     {
         cardsData = cards;
     }
