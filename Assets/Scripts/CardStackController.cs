@@ -5,44 +5,99 @@ using UnityEngine;
 [System.Serializable]
 public class CardStackController
 {
-    [SerializeField] private List<CardView> _cardsView = new List<CardView>();
-    private int useCards = 0;
+    private ICardFieldController _cardFieldController;
 
-    public CardView CardView(int num)
+    [SerializeField] private List<CardView> _cardView = new List<CardView>();
+    private List<CardController> _cardControllers = new List<CardController>();
+
+    public void Inicialization(ICardFieldController cardFieldController)
     {
-        if (_cardsView.Count <= num || num < 0)
-            return null;
+        _cardFieldController = cardFieldController;
+        _cardControllers.Clear();
 
-        return _cardsView[num];
+        for (int i = 0; i < _cardView.Count; i++)
+        {
+            _cardControllers.Add(new CardController());
+        }
     }
-
-    public int CardsViewCount()
+    public int CardsControllerCount()
     {
-        return _cardsView.Count;
+        return _cardControllers.Count;
     }
 
     public void Reset()
     {
-        useCards = 0;
+        for (int i = 0; i < _cardControllers.Count; i++)
+        {
+            _cardControllers[i] = new CardController();
+        }
     }
 
-    public bool FreeCardView()
+    public void NewCard(CardsData cardsData, CardModel cardModel)
     {
-        if (_cardsView.Count <= useCards)
-            return false;
+        int index = NextCardNum();
+        _cardControllers[index].SetCardController(cardsData, cardModel, _cardView[index], ClickCardInStack);
+        _cardControllers[index].view.gameObject.SetActive(true);
+    }
 
-        return true;
+    public bool CheckNextCard()
+    {
+        foreach (CardController cardController in _cardControllers)
+        {
+            if (cardController.model == null)
+                return true;
+        }
+        return false;
     }
 
     public int NextCardNum()
     {
-        if (!FreeCardView())
+        for (int i = 0; i < _cardControllers.Count; i++)
         {
-            Debug.LogError("Card stack is full");
-            return 0;
+            if (_cardControllers[i].model == null)
+                return i;
+        }
+        return -1;
+    }
+
+    public void ClickCardInStack()
+    {
+        for (int i = _cardControllers.Count - 1; i >= 0; i--)
+        {
+            if (_cardControllers[i].view.gameObject.activeSelf)
+            {
+                _cardFieldController.ClickOnStack(_cardControllers[i], this);
+                return;
+            }
+        }
+    }
+
+    public void SetSideCards()
+    {
+        for (int i = 0; i < _cardControllers.Count; i++)
+        {
+            _cardControllers[i].view.ChangeSideCard(false);
         }
 
-        return useCards++;
+        for (int i = _cardControllers.Count - 1; i >= 0; i--)
+        {
+            if (_cardControllers[i].view.gameObject.activeSelf)
+            {
+                _cardControllers[i].view.ChangeSideCard(true);
+                return;
+            }
+        }
+    }
+
+    public bool CheckCompleteStack()
+    {
+        foreach(CardController card in _cardControllers)
+        {
+            if (card.view.gameObject.activeSelf)
+                return false;
+        }
+
+        return true;
     }
 }
 

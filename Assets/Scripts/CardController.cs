@@ -1,30 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
+[System.Serializable]
 public class CardController
 {
-    private CardModel _model;
-    private CardView _view;
+    [SerializeField] private CardView _view;
+    public CardView view { get { return _view; } }
+    public CardModel model { get; private set; }
 
-    private CardView _nextCard;
-    private CardView _previousCard;
-
-    public CardController(CardsData cardsData, CardModel model, CardStackController stack, int stackPosition)
+    public void SetCardController(CardsData cardsData, CardModel model, CardView view, Action clickAction)
     {
-        _model = model;
-        _view = stack.CardView(stackPosition);
-
-        _nextCard = stack.CardView(stackPosition + 1);
-        _previousCard = stack.CardView(stackPosition - 1);
-
-        _view.SetCardSprite(cardsData.CardSprite(_model.suit, _model.cardValue), cardsData.backSprite);
-    }
-    public CardController(CardsData cardsData, CardModel model, CardView view)
-    {
-        _model = model;
+        this.model = model;
         _view = view;
 
-        _view.SetCardSprite(cardsData.CardSprite(_model.suit, _model.cardValue), cardsData.backSprite);
+        if(clickAction != null)
+            _view.clickAction = clickAction;
+
+        _view.SetCardSprite(cardsData.CardSprite(model.suit, model.cardValue), cardsData.backSprite);
+    }
+
+    public void SetCardController(CardsData cardsData, CardModel model)
+    {
+        SetCardController(cardsData, model, _view, null);
+    }
+
+    public void SetModel(CardModel model)
+    {
+        this.model = model;
     }
 }

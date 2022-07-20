@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CardsCombinationModel
 {
-    public readonly CardModel[] cardsData;
+    public readonly CardModel[] cardModels;
 
     public CardsCombinationModel(CardModel[] cards)
     {
-        cardsData = cards;
+        cardModels = cards;
     }
 }

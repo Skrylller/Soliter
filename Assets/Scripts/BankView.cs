@@ -11,25 +11,26 @@ public class BankView : MonoBehaviour
 
     public CardView NewCard(CardModel cardModel, CardsData cardsData)
     {
-        CardView newCard;
+        int cardIndex;
 
-        newCard = FindFreeCardView();
+        cardIndex = FindFreeCardView();
 
-        if (newCard != null)
+        if (cardIndex >= 0)
         {
-            newCard.gameObject.SetActive(true);
+            _bankCardViews[cardIndex].gameObject.SetActive(true);
         }
         else
         {
-            newCard = Instantiate(_cardViewPrefab, transform);
-            _bankCardViews.Add(newCard);
+            _bankCardViews.Add(Instantiate(_cardViewPrefab, transform));
+            cardIndex = _bankCardViews.Count - 1;
         }
 
-        newCard.SetCardSprite(cardsData.CardSprite(cardModel.suit, cardModel.cardValue), cardsData.backSprite);
+        _bankCardViews[cardIndex].SetCardSprite(cardsData.CardSprite(cardModel.suit, cardModel.cardValue), cardsData.backSprite);
+        _bankCardViews[cardIndex].ChangeSideCard(false);
 
         SetBankPosition();
 
-        return newCard;
+        return _bankCardViews[cardIndex];
     }
 
     public void Clear()
@@ -40,15 +41,15 @@ public class BankView : MonoBehaviour
         }
     }
 
-    private CardView FindFreeCardView()
+    private int FindFreeCardView()
     {
-        foreach (CardView card in _bankCardViews)
+        for (int i = 0; i < _bankCardViews.Count; i++)
         {
-            if (card.gameObject.activeSelf == false)
-                return card;
+            if (_bankCardViews[i].gameObject.activeSelf == false)
+                return i;
         }
 
-        return null;
+        return -1;
     }
 
     private void SetBankPosition()
