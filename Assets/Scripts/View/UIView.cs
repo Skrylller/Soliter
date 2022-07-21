@@ -1,7 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Управляет интерфейсом.
+/// </summary>
 public class UIView : MonoBehaviour
 {
     [SerializeField] private GameObject UIPanel;

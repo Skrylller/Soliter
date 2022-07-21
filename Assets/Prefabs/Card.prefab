@@ -129,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frontImage: {fileID: 2844014540985166535}
   _backImage: {fileID: 2844014540510399298}
+  _animationDuration: 0.2
 --- !u!222 &5417112443746250152
 CanvasRenderer:
   m_ObjectHideFlags: 0

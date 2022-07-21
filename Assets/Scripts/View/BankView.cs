@@ -1,7 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// ”правл€ет ссылками на view карт в банке. —оздает пулл обьектов.
+/// </summary>
 public class BankView : MonoBehaviour
 {
     [SerializeField] private CardView _cardViewPrefab;
@@ -26,7 +28,7 @@ public class BankView : MonoBehaviour
         }
 
         _bankCardViews[cardIndex].SetCardSprite(cardsData.CardSprite(cardModel.suit, cardModel.cardValue), cardsData.backSprite);
-        _bankCardViews[cardIndex].ChangeSideCard(false);
+        _bankCardViews[cardIndex].ChangeSideCard(false, false);
 
         SetBankPosition();
 

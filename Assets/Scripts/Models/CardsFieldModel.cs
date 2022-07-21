@@ -1,7 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
+/// <summary>
+/// Хранит карточные комбинации.
+/// </summary>
 public class CardsFieldModel
 {
     public readonly List<CardsCombinationModel> cardsCombinationData = new List<CardsCombinationModel>();

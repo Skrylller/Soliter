@@ -1,13 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 using DG.Tweening;
 
+/// <summary>
+/// View карты с возможностью вызова анимации перемещения от одной точки к другой.
+/// </summary>
 public class CardAnimationView : CardView
 {
-    [SerializeField] private float _animationDuration = 0.5f;
-
     public void MoveTarget(Vector2 startPosition, Vector2 target, Action completeAction)
     {
         transform.position = startPosition;

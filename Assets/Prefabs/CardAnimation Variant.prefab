@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frontImage: {fileID: 2938194130949867005}
   _backImage: {fileID: 2938194130477245560}
-  _animationDuration: 0.5
+  _animationDuration: 0.2
 --- !u!1001 &1130816744920772410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24,7 +24,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2844014540780962860, guid: 02bbfd35ce6b88f429baad5d4fc25bdf, type: 3}
       propertyPath: m_Name
-      value: CardAnimation
+      value: CardAnimation Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2844014540780962863, guid: 02bbfd35ce6b88f429baad5d4fc25bdf, type: 3}
       propertyPath: m_Pivot.x

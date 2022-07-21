@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+/// <summary>
+/// Хранит и модифицирует ссылки на model и view карты.
+/// </summary>
 [System.Serializable]
 public class CardController
 {

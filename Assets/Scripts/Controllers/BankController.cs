@@ -1,7 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
+/// <summary>
+/// Хранит ссылки на карты в банке.
+/// </summary>
 public class BankController
 {
     private ICardFieldController _cardFieldController;
@@ -37,6 +38,6 @@ public class BankController
             return;
 
         _bankCardControllers.Peek().view.gameObject.SetActive(false);
-        _cardFieldController.SetUpperCard(_bankCardControllers.Pop());
+        _cardFieldController.SetUpperCard(_bankCardControllers.Pop(), true);
     }
 }

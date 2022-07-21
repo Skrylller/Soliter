@@ -1,8 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CardFieldGenerator;
 
+/// <summary>
+/// Управляет игровым полем. Хранит ссылки на все компоненты поля.
+/// </summary>
 public class CardsFieldController : MonoBehaviour, ICardFieldController
 {
     [SerializeField] private CardsData _cardsData;
@@ -33,16 +35,16 @@ public class CardsFieldController : MonoBehaviour, ICardFieldController
         {
             cardController.view.gameObject.SetActive(false);
             cardStack.SetSideCards();
-            SetUpperCard(cardController);
+            SetUpperCard(cardController, false);
             CheckCompleteField();
         }
     }
 
-    public void SetUpperCard(CardController cardController)
+    public void SetUpperCard(CardController cardController, bool playAnimationChangeSide)
     {
         _upperCard.SetModel(cardController.model);
 
-        _cardAnimationsController.CardAnimation(_cardsData, cardController, _upperCard.view.transform.position, OnComplete);
+        _cardAnimationsController.CardAnimation(_cardsData, cardController, _upperCard.view.transform.position, OnComplete, playAnimationChangeSide);
 
         void OnComplete()
         {

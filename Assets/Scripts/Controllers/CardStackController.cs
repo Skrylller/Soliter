@@ -1,7 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Стопка карт нужна для правильной визуализации в инспекторе, для возможности создания поля из игрового редактора.
+/// </summary>
 [System.Serializable]
 public class CardStackController
 {
@@ -76,14 +78,14 @@ public class CardStackController
     {
         for (int i = 0; i < _cardControllers.Count; i++)
         {
-            _cardControllers[i].view.ChangeSideCard(false);
+            _cardControllers[i].view.ChangeSideCard(false, false);
         }
 
         for (int i = _cardControllers.Count - 1; i >= 0; i--)
         {
             if (_cardControllers[i].view.gameObject.activeSelf)
             {
-                _cardControllers[i].view.ChangeSideCard(true);
+                _cardControllers[i].view.ChangeSideCard(true, true);
                 return;
             }
         }

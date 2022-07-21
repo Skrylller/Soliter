@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace CardFieldGenerator
 {
+    /// <summary>
+    /// Генератор карточных комбинаций.
+    /// </summary>
     public class CardGenerator
     {
         public static CardsFieldModel GenerateCardsCombinations(FieldData fieldData, CardsData cardData, int fieldSize)
@@ -28,9 +31,9 @@ namespace CardFieldGenerator
         {
             int maxCardCombination = fieldData.maxCardCombination;
 
-            if (fieldSize - generatedCard < fieldData.maxCardCombination - 1)
+            if (fieldSize - generatedCard < fieldData.maxCardCombination)
             {
-                maxCardCombination = fieldSize - generatedCard;
+                return fieldSize - generatedCard + 1;
             }
             else if (fieldSize - generatedCard < fieldData.maxCardCombination + fieldData.minCardCombination - 1)
             {
