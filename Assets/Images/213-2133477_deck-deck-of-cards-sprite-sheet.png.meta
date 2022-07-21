@@ -183,6 +183,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -226,7 +227,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -260,6 +261,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1581,6 +1606,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      213-2133477_deck-deck-of-cards-sprite-sheet_34: -3033144166959158151
+      213-2133477_deck-deck-of-cards-sprite-sheet_43: -1557604132900743035
+      213-2133477_deck-deck-of-cards-sprite-sheet_2: -7984496411300988706
+      213-2133477_deck-deck-of-cards-sprite-sheet_8: 4647729654828718882
+      213-2133477_deck-deck-of-cards-sprite-sheet_42: 2916836398835777374
+      213-2133477_deck-deck-of-cards-sprite-sheet_50: -3757417900953628449
+      213-2133477_deck-deck-of-cards-sprite-sheet_27: 6976216517326998563
+      213-2133477_deck-deck-of-cards-sprite-sheet_6: 6387493622791178651
+      213-2133477_deck-deck-of-cards-sprite-sheet_12: -2469126656342717484
+      213-2133477_deck-deck-of-cards-sprite-sheet_31: 2243715407906427206
+      213-2133477_deck-deck-of-cards-sprite-sheet_18: 6267846968545002705
+      213-2133477_deck-deck-of-cards-sprite-sheet_28: 8961686543726108225
+      213-2133477_deck-deck-of-cards-sprite-sheet_41: -2107787899328473194
+      213-2133477_deck-deck-of-cards-sprite-sheet_33: 7026839097936929803
+      213-2133477_deck-deck-of-cards-sprite-sheet_30: 2839942640588761903
+      213-2133477_deck-deck-of-cards-sprite-sheet_49: -3951168537744964403
+      213-2133477_deck-deck-of-cards-sprite-sheet_38: 8692759003270713067
+      213-2133477_deck-deck-of-cards-sprite-sheet_4: -5690379490165546785
+      213-2133477_deck-deck-of-cards-sprite-sheet_7: 7881328204432932575
+      213-2133477_deck-deck-of-cards-sprite-sheet_40: 5326749908956512920
+      213-2133477_deck-deck-of-cards-sprite-sheet_37: 8171808601787846798
+      213-2133477_deck-deck-of-cards-sprite-sheet_5: 6495595310713038047
+      213-2133477_deck-deck-of-cards-sprite-sheet_17: 5709611952473901558
+      213-2133477_deck-deck-of-cards-sprite-sheet_47: -4981721445627666589
+      213-2133477_deck-deck-of-cards-sprite-sheet_22: -8571522545911662801
+      213-2133477_deck-deck-of-cards-sprite-sheet_9: 2555354627312639065
+      213-2133477_deck-deck-of-cards-sprite-sheet_35: 938283901609996883
+      213-2133477_deck-deck-of-cards-sprite-sheet_3: 2464968961759954260
+      213-2133477_deck-deck-of-cards-sprite-sheet_29: 4515483464312870150
+      213-2133477_deck-deck-of-cards-sprite-sheet_25: -8521471947686831653
+      213-2133477_deck-deck-of-cards-sprite-sheet_45: -1406966679698226868
+      213-2133477_deck-deck-of-cards-sprite-sheet_16: -6050276398626492720
+      213-2133477_deck-deck-of-cards-sprite-sheet_48: 2171064201674524894
+      213-2133477_deck-deck-of-cards-sprite-sheet_0: 7547186782160384634
+      213-2133477_deck-deck-of-cards-sprite-sheet_13: 2523688703826062094
+      213-2133477_deck-deck-of-cards-sprite-sheet_36: 3658475555532289150
+      213-2133477_deck-deck-of-cards-sprite-sheet_52: 6718139507938315119
+      213-2133477_deck-deck-of-cards-sprite-sheet_44: 221985210963565792
+      213-2133477_deck-deck-of-cards-sprite-sheet_24: 1124881354450160415
+      213-2133477_deck-deck-of-cards-sprite-sheet_20: -6745067627464639714
+      213-2133477_deck-deck-of-cards-sprite-sheet_19: -3906356390235219325
+      213-2133477_deck-deck-of-cards-sprite-sheet_1: -5690083706620593227
+      213-2133477_deck-deck-of-cards-sprite-sheet_26: 202552180641918255
+      213-2133477_deck-deck-of-cards-sprite-sheet_23: -4745663616893807026
+      213-2133477_deck-deck-of-cards-sprite-sheet_32: 321717712605843459
+      213-2133477_deck-deck-of-cards-sprite-sheet_14: 3025136152607685966
+      213-2133477_deck-deck-of-cards-sprite-sheet_15: -5597114101700886501
+      213-2133477_deck-deck-of-cards-sprite-sheet_39: 5441390621923899426
+      213-2133477_deck-deck-of-cards-sprite-sheet_10: 2397253110964302052
+      213-2133477_deck-deck-of-cards-sprite-sheet_11: -1891401999545217325
+      213-2133477_deck-deck-of-cards-sprite-sheet_51: 3823279079002088324
+      213-2133477_deck-deck-of-cards-sprite-sheet_21: 2108520742552917695
+      213-2133477_deck-deck-of-cards-sprite-sheet_46: -342489729011665826
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
